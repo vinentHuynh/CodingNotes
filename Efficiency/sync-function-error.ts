@@ -1,3 +1,5 @@
+// validates all errors and returns all errors found
+// useful when you want to validate all errors before throwing them
 export function ValidateEvent(event: any): void {
   const errors: Error[] = [];
 
